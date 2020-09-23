@@ -52,7 +52,7 @@ defmodule Wallaby.Mixfile do
   defp deps do
     [
       {:jason, "~> 1.1"},
-      {:httpoison, "~> 0.12 or ~> 1.0"},
+      {:httpoison, "~> 0.12 or ~> 1.6"},
       {:poolboy, "~> 1.5"},
       {:web_driver_client, "~> 0.1.0"},
       {:dialyxir, "~> 1.0", only: :dev, runtime: false},
